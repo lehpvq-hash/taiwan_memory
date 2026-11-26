@@ -9,8 +9,8 @@
 
 html,
 body {
-  min-height: 100%;
-  background: #7ed6f7 url("assets/site-background.jpg") center top / cover fixed no-repeat !important;
+    min-height: 100%;
+    background: #F7F9F3 !important;
 }
 body {
   color: #4e4050;
@@ -37,10 +37,10 @@ body {
   margin: 0 !important;
   padding: 5px 9px 8px !important;
   overflow: visible !important;
-  border: 1px dotted #e978a7 !important;
+  border: 1px dotted #9CCFBA !important;
   border-image: none !important;
   border-radius: 0 !important;
-  background: transparent url("assets/site-background.jpg") center top / 100% auto repeat-y !important;
+  background: transparent url("assets/center-background.jpg") center top / 100% auto repeat-y !important;
   box-shadow: none !important;
 }
 .page-star-border { display: none !important; }
@@ -106,7 +106,7 @@ header {
 .header-art.is-3d > img {
   display: none !important;
 }
-.sticker-dog { bottom: 50px !important; }
+.sticker-dog { bottom: 39px !important; }
 .header-room-sticker {
   right: -24px !important;
   top: -31px !important;
@@ -137,7 +137,7 @@ header {
   position: relative;
   min-width: 0;
   padding-top: 91px;
-  color: #173b68;
+  color: #4E625A;
   font: 10px/1.38 var(--old-ui);
   text-shadow: 1px 1px 0 rgba(255,255,255,.85);
 }
@@ -145,7 +145,7 @@ header {
 .side-text {
   position: relative;
   padding: 4px 2px 6px 5px;
-  border-top: 1px dashed #2e73a7;
+  border-top: 1px dashed #9CCFBA;
   border-bottom: 1px dotted #fff;
   background: transparent;
 }
@@ -153,8 +153,8 @@ header {
   display: inline;
   margin: 0;
   padding: 0 2px;
-  color: #c52f78;
-  background: #fff;
+  color: #5A9B80;
+  background: #EAF5EE;
   font: bold 10px/15px "MS Gothic", Tahoma, sans-serif;
 }
 .side-text p { margin: 5px 0 1px; }
@@ -165,20 +165,20 @@ header {
   width: max-content;
   max-width: 100%;
   margin: 0 0 1px;
-  color: #153b6c;
+  color: #46665A;
   text-decoration: none;
 }
 .side-info nav a:nth-child(2),
 .side-info nav span:nth-child(4) { margin-left: 6px; }
-.side-info nav a:hover { color: #df327e; text-decoration: underline; }
-.side-count { padding-top: 4px; border-top: 1px dotted #3577a3; }
-.side-text small { color: #6a4471; font-size: 8px; }
+.side-info nav a:hover { color: #D4779B; text-decoration: underline; }
+.side-count { padding-top: 4px; border-top: 1px dotted #9CCFBA; }
+.side-text small { color: #7A8E83; font-size: 8px; }
 .current-status { margin-left: 7px; }
 .useless-info { margin: 10px 4px 0 0; transform: translateX(-3px); }
 .useless-info p { overflow-wrap: anywhere; }
 .side-noise {
   margin: 7px 0 0 9px;
-  color: #68416e;
+  color: #71877B;
   font: 8px/1.45 "MS Gothic", Tahoma, sans-serif;
 }
 .right-noise { margin-left: 17px; }
@@ -425,7 +425,7 @@ header {
 .random-memory-box {
   margin-left: 2px;
   border: 1px dotted #da85a7;
-  background: rgba(255,251,204,.9);
+  background: rgba(255,225,238,.95);
 }
 .mini-archive-box {
   margin-left: 7px;

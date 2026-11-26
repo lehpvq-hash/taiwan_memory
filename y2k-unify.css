@@ -56,7 +56,7 @@ html body .welcome-box.is-clamped::after {
 html body .about-more {
   position: absolute; z-index: 2; left: 50%; bottom: 6px; transform: translateX(-50%);
   font: 11px Verdana, Tahoma, sans-serif !important; color: #b34f7c !important;
-  background: #fff !important; border: 1px dashed #e978a7 !important; padding: 1px 8px !important; cursor: pointer;
+  background: #fff !important; border: 1px dashed #9CCFBA !important; padding: 1px 8px !important; cursor: pointer;
 }
 html body .welcome-box:not(.is-clamped) .about-more { position: static; transform: none; display: block; margin: 6px auto 0; }
 
@@ -286,4 +286,21 @@ html body .site-footer { font-size: 14px !important; line-height: 1.6 !important
   html body .guide-layout > .guide-workspace { width: 100% !important; max-width: none !important; min-width: 0 !important; height: auto !important; }
   html body .guide-editor { height: 62vh !important; min-height: 320px !important; max-height: none !important; }
   html body .guide-toolbar { flex-wrap: wrap !important; }
+}
+
+/* Mint green active navigation */
+body nav.tabs button.tab.active {
+    background: #83b99a !important;
+    color: #ffffff !important;
+    border: 1px solid #83b99a !important;
+}
+
+/* Header 改为奶油黄 */
+html body main.site > header {
+    background: #fff6d8 !important;
+}
+
+/* Random Memory 标题改为黄色 */
+html body .random-memory-box > b {
+    color: #d6a92e !important;
 }

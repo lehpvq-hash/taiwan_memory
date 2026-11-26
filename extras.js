@@ -8,8 +8,7 @@
 
   /* ---------- RANDOM MEMORY ---------- */
   const BUILT_IN = [
-    { text: "夜里突然想吃盐酥鸡", date: "07/04" },
-    { text: "和yukiri一起去看玩具总动员了 不过她居然看着看着要掉眼泪了哈哈哈", date: "07/04" },
+   
   ];
   let pool = BUILT_IN.slice();
 
@@ -95,7 +94,7 @@
 
   /* ---------- visitor counter ---------- */
   function showVisitor(n) {
-    const label = String(n).padStart(6, "0");
+    const label = "000001";
     document.querySelectorAll(".visitor-no").forEach((el) => { el.textContent = label; });
   }
 
